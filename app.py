@@ -43,7 +43,7 @@ def gen_ans():
         logger.info('本次接口调用结束！\n')
         return {'message': "上传文件格式不支持！"}
 
-
+#123
 if __name__ == '__main__':
     server = pywsgi.WSGIServer(("0.0.0.0",5001), app) #
     server.serve_forever()
